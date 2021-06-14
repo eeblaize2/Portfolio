@@ -62,14 +62,34 @@ h3, a {
 }
 
 #flex > div {
-    width:48%;
+    position:relative;
+    width:380px;
+    height:190px;
     border:1px solid black;
-    height:20em;
     margin-bottom:2em;
+    padding:1em;
 }
+
+#project_1 {
+
+}
+
+#project_1::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("../images/What-Song.PNG");
+    background-size:cover;
+    opacity:.2;
+}
+
 #portfolio {
     width:800px;
 }
+
 header {
     width:100%;
     padding:1em;
