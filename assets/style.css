@@ -20,9 +20,8 @@ body {
 #firstimg {
     height: auto;
     width: 100%;
-    /*background-image: url("../images/code_refactor.jpg");*/
     padding-top: 2em;
-    border:1px solid black;
+    border:5px solid rgb(226, 107, 10);
     margin-bottom: 2em;
 }
 .allimg {
@@ -32,22 +31,17 @@ body {
     border-color: red;
     border-width: 10px;
 }
-#Bats{
-    /* max-width: 600px; */
-    max-width: 50%;
-    min-width:200px;
-    height: auto;
-}
-.project_div {
+
+/*.project_div {
     width:30%;
     padding:0.5em;
     background-color:white;
     margin: 2em auto 1em 1em;
     opacity: 0.5;
-}
-h3, a {
-    opacity: 1;
-}
+}*/
+/*h3  {
+    
+}*/
 .row {
     display: flex;
     flex-direction: row;
@@ -63,16 +57,18 @@ h3, a {
 
 #flex > div {
     position:relative;
-    width:380px;
-    height:190px;
-    border:1px solid black;
+    width:500px;
+    height:300px;
+    border:3px solid rgb(226, 107, 10);
     margin-bottom:2em;
     padding:1em;
+    font-weight: bold;
 }
 
-#project_1 {
-
-}
+/*#project_1 {
+}*/
+   
+    
 
 #project_1::before {
     content: "";
@@ -83,8 +79,83 @@ h3, a {
     left: 0px;
     background-image: url("../images/What-Song.PNG");
     background-size:cover;
-    opacity:.2;
+    opacity:.8;
+    
 }
+
+#password_generator::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("../images/password-generator.PNG");
+    background-size:cover;
+    opacity:.8;
+}
+
+#code_quiz::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("../images/Code_Quiz screenshot.PNG");
+    background-size:cover;
+    opacity:.8;
+}
+
+#project_2::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("../images/moi-me-ries.PNG");
+    background-size:cover;
+    opacity:.8;
+}
+
+#day_planner::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("../images/work_day_scheduler.PNG");
+    background-size:cover;
+    opacity:.8;
+}
+
+#readMe_generator::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("../images/readMe_generator.PNG");
+    background-size:cover;
+    opacity:.8;
+}
+
+/*#firstimg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("../images/code_refractor.PNG");
+    background-size:cover;
+    opacity:.8;
+}*/
+
+
 
 #portfolio {
     width:800px;
@@ -93,8 +164,10 @@ h3, a {
 header {
     width:100%;
     padding:1em;
-    background-color: rgb(226, 107, 10) ;
+    background-color: rgb(226, 107, 10);
+    text-align: center;
 }
 nav a {
     text-decoration:none;
 }
+
