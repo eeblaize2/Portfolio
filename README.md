@@ -22,7 +22,7 @@ Build a profile so that potential employers can view completed work.
 
 
 ## Link to deployed application:
-[What's-the-Song?](https://harben31.github.io/project_1/)
+[Portfolio](https://eeblaize2.github.io/Portfolio/)
 
 
 ## Technologies
@@ -38,7 +38,7 @@ Project is created with:
 
 
 ## Screenshot to deployed application
-[What's-the-Song?]
+![Portfolio](https://user-images.githubusercontent.com/77705971/122653231-24097b00-d0f8-11eb-8b2a-c619a76c8fd1.PNG)
 
 
 
