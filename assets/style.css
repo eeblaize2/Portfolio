@@ -18,30 +18,16 @@ body {
 
 }
 #firstimg {
-    height: auto;
+    position:relative;
+    height: 300px;
     width: 100%;
     padding-top: 2em;
     border:5px solid rgb(226, 107, 10);
     margin-bottom: 2em;
-}
-.allimg {
-    height: 25px;
-    width: 25px;
-    border: solid;
-    border-color: red;
-    border-width: 10px;
+    font-weight:bold;
+    padding-top:2em;
 }
 
-/*.project_div {
-    width:30%;
-    padding:0.5em;
-    background-color:white;
-    margin: 2em auto 1em 1em;
-    opacity: 0.5;
-}*/
-/*h3  {
-    
-}*/
 .row {
     display: flex;
     flex-direction: row;
@@ -52,114 +38,51 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #flex > div {
     position:relative;
     width:500px;
     height:300px;
-    border:3px solid rgb(226, 107, 10);
+    border:5px solid rgb(226, 107, 10);
     margin-bottom:2em;
     padding:1em;
     font-weight: bold;
 }
 
-/*#project_1 {
-}*/
+.prj_text {
+    z-index:100;
+    position:absolute;
+    top:0;
+    left:0;
+    margin:1em;
+}
+
+.black {
+    color:black;
+}
+
+.white {
+    color:white;
+}
+
+.prj_text * {
+
+    text-shadow: 4px 4px 10px black;
+}
+
    
+.prj_image {
+    width:100%;
+    height:100%;
+    opacity:0.8;
+    z-index:1;
+    position:absolute;
+    top:0;
+    left:0;
+}
     
-
-#project_1::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-image: url("../images/What-Song.PNG");
-    background-size:cover;
-    opacity:.8;
-    
-}
-
-#password_generator::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-image: url("../images/password-generator.PNG");
-    background-size:cover;
-    opacity:.8;
-}
-
-#code_quiz::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-image: url("../images/Code_Quiz screenshot.PNG");
-    background-size:cover;
-    opacity:.8;
-}
-
-#project_2::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-image: url("../images/moi-me-ries.PNG");
-    background-size:cover;
-    opacity:.8;
-}
-
-#day_planner::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-image: url("../images/work_day_scheduler.PNG");
-    background-size:cover;
-    opacity:.8;
-}
-
-#readMe_generator::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-image: url("../images/readMe_generator.PNG");
-    background-size:cover;
-    opacity:.8;
-}
-
-/*#firstimg::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-image: url("../images/code_refractor.PNG");
-    background-size:cover;
-    opacity:.8;
-}*/
-
-
-
-#portfolio {
-    width:800px;
-}
 
 header {
     width:100%;
